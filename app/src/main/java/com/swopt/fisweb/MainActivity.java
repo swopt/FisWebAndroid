@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         webView = (WebView)findViewById(R.id.webView);
         webView.setWebViewClient(new FisWebViewClient());
         webView.getSettings().setJavaScriptEnabled(true);
-        webView.loadUrl("http://192.168.56.1:8000/fis/");
+        webView.loadUrl("http://192.168.100.107:3000");
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
